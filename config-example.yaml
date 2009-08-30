@@ -1,0 +1,12 @@
+--- 
+oauth: 
+  request_secret: 
+  request_token: 
+  consumer_secret: 
+  consumer_key: 
+update_every: 5
+basic_auth: 
+  user: hkitevent
+  password: 
+auth_mode: oauth
+ical_url: "http://www.google.com/calendar/ical/s7v0ntq98kbmvp4hafbpvl2qkc%40group.calendar.google.com/public/basic.ics"
