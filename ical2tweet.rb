@@ -9,7 +9,7 @@ require File.join(File.dirname(__FILE__), "ical_parser" )
 CONFIG_FILE = 'config.yaml'
 
 if File.exist?(CONFIG_FILE) && File.ftype(CONFIG_FILE) == 'file'
-  CONFIG = YAML::load(File.read('config.yaml'))
+  CONFIG = YAML::load(File.read(File.join(File.dirname(__FILE__), 'config.yaml')))
 else
   abort "\n\nPlease edit config-example.yaml and save it as config.yaml\n\n"
 end
