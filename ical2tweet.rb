@@ -1,9 +1,9 @@
 #!/usr/bin/ruby -w
 
 require 'rubygems'; require 'cgi'; require 'yaml'
-require 'authenticate' 
-require "ruby-debug"
-require "ical_parser"
+require File.join(File.dirname(__FILE__), 'authenticate' )
+# require "ruby-debug"
+require File.join(File.dirname(__FILE__), "ical_parser" )  
 
 # configuration is done entirely through config.yaml
 CONFIG_FILE = 'config.yaml'
